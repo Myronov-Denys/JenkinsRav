@@ -1,7 +1,6 @@
 /* eslint-disable max-len */
 const { test, expect } = require('@playwright/test');
 const { time } = require('console');
-const { setTimeout } = require('timers/promises');
 const { timeout } = require('../playwright.config');
 // const { sign } = require('crypto');
 const { HomePage } = require('./pages/homePage');
